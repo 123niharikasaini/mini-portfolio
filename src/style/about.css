@@ -1,0 +1,34 @@
+.about{
+    margin: 5% 10%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.about .skills{
+    background-color: rgb(62, 61, 61);
+    border-radius: 0.6rem;
+    padding: 5%;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    column-gap: 5%;
+    row-gap: 15%;
+    box-shadow: 5px 10px 8px 5px #888888;
+    margin-bottom: 5%;
+}
+
+.about .skills div{
+    text-align: center;
+    background-color: #E6E6FA;
+    border-radius: 0.6rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+
+@media (max-width:768px) {
+    .about .skills div{
+        font-size: 0.7rem;
+    }
+}

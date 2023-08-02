@@ -1,0 +1,21 @@
+a{
+    text-decoration: none;
+    color: white;
+    height: 200px;
+}
+.card{
+    background-color: rgb(62, 61, 61);
+    width: 60%;
+    margin: 10% 20%;
+    display: flex;
+    border-radius: 0.6rem;
+    box-shadow: 5px 10px 8px 5px #888888;
+}
+.card div{
+    flex-basis: 30%;
+    text-align: center;
+    margin: 5%;
+    padding: 5%;
+    
+}
+

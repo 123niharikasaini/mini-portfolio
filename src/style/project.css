@@ -1,0 +1,56 @@
+.title{
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 5%;
+    font-weight: 600;
+    text-decoration: underline;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    row-gap: 5%;
+    column-gap: 10%;
+    margin: 5% 10%;
+    margin-bottom: 10%;
+}
+
+.grid .cards{
+    background-color: rgb(62, 61, 61);
+    border-radius: 0.6rem;
+    padding: 0.5rem;
+    box-shadow: 5px 10px 8px 5px #888888;
+}
+.grid .cards a .name{
+    text-align: center;
+    padding: 2%;
+}
+
+.grid .cards a .img{
+    padding-top: 3%;
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.grid .cards a .img:hover{
+    height: 280px;
+}
+
+@media (max-width:768px) {
+    .grid{
+    grid-template-columns: 100%;
+    text-align: center;
+    margin: 5% 15%;
+    column-gap: 0%;
+    margin-bottom: 60%;
+    }
+    .grid .cards a .img{
+        height: 230px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .grid .cards a .img:hover{
+        height: 250px;
+    }
+    
+}

@@ -1,38 +1,106 @@
-.App {
-  text-align: center;
+/*----------------- home ---------- */
+.home{
+    margin: 10% 10%;
+    background-color: rgb(62, 61, 61);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5% 0%;
+    border-radius: 0.5rem;
+    box-shadow: 5px 10px 8px 5px #888888;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* .home .img{
+   margin: 0 2rem;
+    height: 270px;
+    width: 270px;
+    
+    border-radius: 50%;
+    align-self: left;
+    background-color: rgb(62, 61, 61);
+} */
+.home img{
+    margin: 0.6rem 2rem;
+    /* border: 2px solid; */
+    height: 250px;
+    width: 250px;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    border-radius: 50%;
+    
+}
+.home .greet{
+color: white;
+margin-right: 2rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@media (max-width:768px){
+    .home{
+        flex-direction: column;
+        justify-content: space-evenly;
+       
+        text-align: center;
+        padding: 0% 0%;
+    }
+    .home img{
+        height: 150px;
+        width: 150px;
+        /* margin: 0.3rem; */
+    }
+    /* .home .img{
+       
+        height: 100%;
+        width: 70%;
+        border-radius: 0;
+        text-align: center;
+    } */
+    .home .greet{
+        margin-right: 0;
+        padding: 5%;
+    }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+/* -------------- about ----------------- */
+/* .about{
+    margin: 10% 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
-.App-link {
-  color: #61dafb;
+.about img{
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 50%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.about .info{
+    display:flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    border: 2px solid;
 }
+
+.about .info .name{
+    display: flex;
+    justify-content: space-between;
+    margin: 0.6rem;
+
+    
+}
+
+.about .info .name .ques{
+    font-weight: 600;
+    width: 20%;
+    
+}
+.about .info .name .ans{
+    width: 80%;
+    margin-left: 0.5rem;
+} */
+
+
