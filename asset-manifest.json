@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/mini-portfolio/static/css/main.e246e590.css",
+    "main.js": "/mini-portfolio/static/js/main.495ecaec.js",
+    "static/media/chocobean.png": "/mini-portfolio/static/media/chocobean.327ce424f04aea4091d7.png",
+    "static/media/netflix.png": "/mini-portfolio/static/media/netflix.28f312a96e97dd02f04b.png",
+    "static/media/back.png": "/mini-portfolio/static/media/back.1ff8f310cf799fa420c2.png",
+    "static/media/logo.jpg": "/mini-portfolio/static/media/logo.3d247f28266d161262c9.jpg",
+    "static/media/todolist.png": "/mini-portfolio/static/media/todolist.f792c472661444333289.png",
+    "static/media/Weather.png": "/mini-portfolio/static/media/Weather.457b157744b2f7fe1e8a.png",
+    "static/media/Keep-note.png": "/mini-portfolio/static/media/Keep-note.e3145debac0f59b0c767.png",
+    "index.html": "/mini-portfolio/index.html",
+    "main.e246e590.css.map": "/mini-portfolio/static/css/main.e246e590.css.map",
+    "main.495ecaec.js.map": "/mini-portfolio/static/js/main.495ecaec.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e246e590.css",
+    "static/js/main.495ecaec.js"
+  ]
+}
